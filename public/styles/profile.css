@@ -1,0 +1,100 @@
+/* Boxes */
+#boxes{
+  margin-top:20px;
+  margin-left: 43%;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  /*width:30%;*/
+  padding:10px;*/
+}
+
+#boxes .box img{
+  width:20px;
+}
+
+.center-div { max-width:100%; max-height:100%; margin:0 0 0 34%; }
+
+.container-initial {
+  background: #FFF url(/images/coding.png);
+  /*width: 100%;
+  margin: 0 auto;*/
+  height:400px;
+}
+
+.intro {
+  /*width: 640px; /*can be in percentage also.*/*/
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  /*line-height: 90px;*/
+}
+
+.intro h1 {
+  margin-top: 120px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+  font-weight: bold;
+}
+
+.intro p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+  font-size: 150%
+}
+
+nav {
+  margin-top:10px;
+  text-align: center;
+}
+
+#footer-links {
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+  justify-content: space-between;
+    /*border: 1px solid black;*/
+  /*list-style-type: none;*/
+  padding: 10px;
+  margin: 0;
+    /*justify-content: space-between*/
+}
+
+#footer-links li{
+  /*float:left;*/
+  /*display:inline;*/
+  /*padding: 0 30px 0 20px;*/
+
+  /*width:100%;*/
+  display:block;
+  float: left;
+  text-align:center;
+}
+
+
+.right a:hover {
+
+
+	-webkit-transition:All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+
+
+	-webkit-transform: rotate(10deg) scale(1.2);
+	-moz-transform: rotate(10deg) scale(1.2);
+	-o-transform: rotate(10deg) scale(1.2);
+}
+
+.navbar-center {
+  width: 70%;
+    margin: auto;
+}
+
+.footer-color {
+  background-color: rgba(183, 175, 175, 0.54);
+}
