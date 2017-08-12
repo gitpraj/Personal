@@ -32,7 +32,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
-	'port': 7000,
+	'port': process.env.PORT || 7000,
 	'mongo': process.env.MONGO_URI || "mongodb://localhost/beginnerproj"
 });
 
