@@ -76,6 +76,10 @@ nav {
   text-align:center;
 }
 
+#footer-links a {
+  color: rgb(255, 255, 255);
+}
+
 
 .right a:hover {
 
@@ -96,5 +100,5 @@ nav {
 }
 
 .footer-color {
-  background-color: rgba(183, 175, 175, 0.54);
+  background-color: rgba(56, 55, 55, 0.92);
 }
