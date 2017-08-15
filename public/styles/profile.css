@@ -1,7 +1,7 @@
 /* Boxes */
 #boxes{
   margin-top:20px;
-  margin-left: 43%;
+  /*margin-left: 43%;*/
 }
 
 #boxes .box{
@@ -21,14 +21,14 @@
   background: #FFF url(/images/coding.png);
   /*width: 100%;
   margin: 0 auto;*/
-  height:400px;
+  height:700px;
 }
 
 .intro {
   /*width: 640px; /*can be in percentage also.*/*/
   height: auto;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10%;
   position: relative;
   text-align: center;
   vertical-align: middle;
@@ -101,4 +101,36 @@ nav {
 
 .footer-color {
   background-color: rgba(56, 55, 55, 0.92);
+}
+
+.left_container {
+  float: left;
+  width: 33.33%;
+  height: 350px;
+    /*height: 200px;
+    width: 200px;*/
+}
+
+.right_container {
+  float: left;
+  width: 33.33%;
+  height: 350px;
+
+    /*height: 200px;
+    width: 200px;*/
+}
+
+.center_container {
+  width: 33.33%;
+  display: inline-block;
+  height: 350px;
+    /*height: 200px;
+    width: 200px;*/
+}
+
+.img-center {
+  display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
 }
