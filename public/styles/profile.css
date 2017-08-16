@@ -134,3 +134,51 @@ nav {
     max-width: 100%;
     max-height: 100%;
 }
+
+.quote {
+    border-left: 5px solid #ff5800;
+    padding: 0 0 0 35px;
+}
+
+.quote_cnt__no-flow {
+    color: #2c3e50;
+    font-size: 30px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.content-section {
+    width: 85%;
+    float: left;
+}
+
+.block-section, .content-section {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 0;
+    overflow: hidden;
+    /*width: 100%;
+    float: left;*/
+}
+
+.Testimonial-Quote {
+    font-family: "Segoe UI","Arial","sans-serif";
+    font-size: 30px;
+    font-style: italic;
+    color: #2c3e50;
+    text-align: left;
+    line-height: 36px;
+    font-weight: lighter;
+}
+
+cite {
+    color: #99999f;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.small_text {
+  font-size: 50%;
+}
