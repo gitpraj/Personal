@@ -25,7 +25,7 @@
 }
 
 .intro {
-  /*width: 640px; /*can be in percentage also.*/*/
+  /*width: 640px; /*can be in percentage also.*/
   height: auto;
   margin: 0 auto;
   padding: 10%;
@@ -80,6 +80,21 @@ nav {
   color: rgb(255, 255, 255);
 }
 
+#contact-intro {
+  height: auto;
+  margin: 0 auto;
+  padding: 15% 0 0 0;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contact-intro-size {
+  font-family: "Segoe UI","Arial","sans-serif";
+  font-size: 25px;
+  color: Black;
+  font-weight: bold;
+}
 
 .right a:hover {
 
@@ -193,6 +208,10 @@ cite {
 .blog .post .read-more a{
   color: #337ab7;
 }
+
+/*.contact {
+  float: right;
+}*/
 
 /* Image slider */
 
@@ -368,3 +387,86 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   height: 50px;
   float: left;
 }
+
+/* Typing animation */
+/*
+
+.anim{
+  background: #000;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  /*width: 40%;
+  height: 50%;*/
+/*}
+
+.typing-anim{
+  color: lime;
+  font-family: "Courier";
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+
+.typing-anim:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+/*.typing-anim:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+.typing-anim:nth-child(1){
+  animation: type2 8s steps(60, end);
+}*/
+
+/*.typing-anim a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}*/
+
+/* End of typing animation */
+
+/* Typing anim 2 */
+
+.anim {
+  font-family: 'Raleway', sans-serif;
+  padding: 3em 2em 3em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+
+.anim h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+.anim h1 { font-size: 3.5em; }
+.anim h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+/* End */
