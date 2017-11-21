@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="/favicon_manutd.ico" type="image/x-icon">
 		<link href="/styles/site1.css" rel="stylesheet">
 		<link href="/styles/profile.css" rel="stylesheet">
+		<link href="/styles/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
 
 		{{!-- This file provides the default styling for the KeystoneJS Content Editor
 			- only renders when user is logged in and admin--}}
@@ -89,46 +90,73 @@
 			<!-- The content block should contain the body of your template's content-->
 			{{{body}}}
 		</div>
-		<div class="footer-color">
-			<div id="footer">
-				<section id="boxes">
-		      <div class="container ppp">
-		        <div class="box">
-							<a href="https://github.com/gitpraj" target="_blank">
-								<img src="/images/github.png">
-							</a>
-		        </div>
-		        <div class="box">
-							<a href="https://www.linkedin.com/in/prajith-maniyan-03291273/" target="_blank">
-								<img src="/images/LinkedIn-Logo.png">
-							</a>
-		        </div>
-						<div class="box">
-							<a href="https://www.facebook.com/praj.man90" target="_blank">
-								<img src="/images/fb.png">
-							</a>
-		        </div>
-						<div class="box">
-							<a href="https://www.instagram.com/prajithm2790/?hl=en" target="_blank">
-								<img src="/images/instagram.png">
-							</a>
-		        </div>
-		      </div>
-		    </section>
-				<!-- <div class="container contact">
-						<div>
-						Prajith Maniyan Poosappadi.</div>
-						<div>Call me at 0490 335 670.</div>
-				</div> -->
-				<div class="container">
-					<nav>
-						<ul id="footer-links">
-							<li><a href="/">Home</a></li>
-							<li><a href="/projects">Projects</a></li>
-							<li><a href="/contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
+
+		<div class="footer-desc">
+				<div class="row">
+
+								<!-- <div class="footer-color"> -->
+									<!-- <div id="footer"> -->
+										<div class="col-md-9 col-sm-8">
+												<section id="boxes">
+										      <div class="container ppp">
+										        <div class="box">
+															<!-- <a href="https://github.com/gitpraj" target="_blank">
+																<img src="/images/github.png">
+															</a> -->
+															<a href="https://github.com/gitpraj" target="_blank">
+																<i class="fa fa-github fa-5x"></i>
+															</a>
+										        </div>
+										        <div class="box">
+															<!-- <a href="https://www.linkedin.com/in/prajith-maniyan-03291273/" target="_blank">
+																<img src="/images/LinkedIn-Logo.png">
+															</a> -->
+															<a href="https://www.linkedin.com/in/prajith-maniyan-03291273/" target="_blank">
+																<i class="fa fa-linkedin fa-5x"></i>
+															</a>
+										        </div>
+														<div class="box">
+															<!-- <a href="https://www.facebook.com/praj.man90" target="_blank">
+																<img src="/images/fb.png">
+															</a> -->
+															<a href="https://www.facebook.com/praj.man90" target="_blank">
+																<i class="fa fa-facebook-official fa-5x"></i>
+															</a>
+										        </div>
+														<div class="box">
+															<!-- <a href="https://www.instagram.com/prajithm2790/?hl=en" target="_blank">
+																<img src="/images/instagram.png">
+															</a> -->
+															<a href="https://www.youtube.com" target="_blank">
+																<i class="fa fa-instagram fa-5x"></i>
+															</a>
+										        </div>
+										      </div>
+										    </section>
+										</div>
+										<!-- <div class="container contact">
+												<div>
+												Prajith Maniyan Poosappadi.</div>
+												<div>Call me at 0490 335 670.</div>
+										</div> -->
+										<!-- <div class="container"> -->
+											<!-- <nav>
+												<ul id="footer-links">
+													<li><a class="" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+													<li><a href="/projects">Projects</a></li>
+													<li><a href="/contact">Contact</a></li>
+												</ul> -->
+												<div class="col-md-3 col-sm-4">
+														<div class="list-group menu-footer">
+														  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+														  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+														  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+														  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+														</div>
+												</div>
+										<!-- </div> -->
+									<!-- </div>
+								</div> -->
 			</div>
 		</div>
 		{{!--

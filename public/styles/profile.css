@@ -6,7 +6,7 @@
     height: 100px;
 }
 #boxes{
-  /*margin-top:20px;*/
+  margin-top:4%;
   /*margin-left: 43%;*/
 }
 
@@ -578,3 +578,17 @@ span{
 }
 
 /* end sidenav */
+
+/* footer font awesome */
+
+a i {
+  color: #000;
+}
+
+a i:hover {
+  color: #818181;
+}
+
+.footer-desc {
+  background-color: rgba(56, 55, 55, 0.92);
+}
