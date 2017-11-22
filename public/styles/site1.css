@@ -4543,6 +4543,7 @@ a.thumbnail.active {
 
 .list-group {
   margin-bottom: 20px;
+  margin-top: 40px;
   padding-left: 0; }
 
 .list-group-item {
