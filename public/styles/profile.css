@@ -65,17 +65,17 @@
  }
 
 .container-initial {
-  background: #FFF url(/images/coding.png);
+  background-color: black;
   /*width: 100%;
   margin: 0 auto;*/
-  height:700px;
+  height: 600px;
 }
 
 .intro {
   /*width: 640px; /*can be in percentage also.*/
   height: auto;
   margin: 0 auto;
-  padding: 10%;
+  /* padding: 10%; */
   position: relative;
   text-align: center;
   vertical-align: middle;
@@ -616,4 +616,228 @@ i.download {
       margin-left: auto;
   margin-right: auto;
   display: table;
+}
+
+.row {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.sm4 {
+    width: 100%;
+}
+
+#hello {
+    font-size: 21px;
+    text-align: center;
+}
+
+#hello h2 {
+    margin-top: 80px;
+}
+
+#hello h2 .title {
+    display: inline-block;
+}
+
+#hello h3 {
+    font-family: 'Bitter', sans-serif;
+    color: #d72b29;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+
+#hello p {
+    margin: 60px 0;
+}
+
+.sm4 h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #c8c8c8;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 .title:before {
+    display: inline-block;
+    width: 40px;
+    content: " ";
+    border-bottom: 2px solid #c8c8c8;
+    margin-right: 20px;
+    position: relative;
+    top: -10px;
+}
+
+h2 .title:after {
+    display: inline-block;
+    width: 40px;
+    content: " ";
+    border-bottom: 2px solid #c8c8c8;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+}
+
+.sm4 p {
+    background: white;
+    color: #585858;
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+}
+
+/* .intro img {
+  height: 35%;
+  width: 35%;
+} */
+
+#header > div {
+  border-bottom-color: red;
+  border-bottom-width: thick;
+}
+
+
+
+/* JUST for the button */
+
+/* body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background: #FFDC52;
+} */
+
+.button {
+  background: #eb1f48;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 1.5em;
+  height: 65px;
+  letter-spacing: .2px;
+  line-height: 65px;
+  text-align: center;
+  /* text-transform: uppercase; */
+  user-select: none;
+  width: 200px;
+  margin-left: 42%;
+}
+.button:hover {
+  background: #ec3257;
+}
+.button:active {
+  box-shadow: inset 0px 2px 8px -1px #d7143b;
+}
+
+.fancy-button {
+  margin: auto;
+  position: relative;
+}
+
+.frills, .frills:after, .frills:before {
+  position: absolute;
+  background: #eb1f48;
+  border-radius: 4px;
+  height: 8px;
+}
+
+.frills:after, .frills:before {
+  content: "";
+  display: block;
+}
+
+.frills:before {
+  bottom: 45px;
+}
+
+.frills:after {
+  top: 45px;
+}
+
+.left-frills {
+  left: 40%;
+  top: 28.5px;
+}
+.active .left-frills {
+  animation: move-left 0.38s ease-out, width-to-zero 0.38s ease-out;
+}
+.left-frills:before, .left-frills:after {
+  left: 15px;
+}
+.active .left-frills:before {
+  animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+}
+.active .left-frills:after {
+  animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+}
+
+.right-frills {
+  left: 60%;
+  top: 28.5px;
+}
+.active .right-frills {
+  animation: move-right 0.38s ease-out, width-to-zero 0.38s ease-out;
+}
+.right-frills:before, .right-frills:after {
+  right: 15px;
+}
+.active .right-frills:before {
+  animation: width-to-zero 0.38s ease-out, move-up 0.38s ease-out;
+}
+.active .right-frills:after {
+  animation: width-to-zero 0.38s ease-out, move-down 0.38s ease-out;
+}
+
+.left-frills:before, .right-frills:after {
+  transform: rotate(34deg);
+}
+
+.left-frills:after, .right-frills:before {
+  transform: rotate(-34deg);
+}
+
+@keyframes move-left {
+  0% {
+    transform: none;
+  }
+  65% {
+    transform: translateX(-80px);
+  }
+  100% {
+    transform: translateX(-80px);
+  }
+}
+@keyframes move-right {
+  0% {
+    transform: none;
+  }
+  65% {
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(80px);
+  }
+}
+@keyframes width-to-zero {
+  0% {
+    width: 38px;
+  }
+  100% {
+    width: 8px;
+  }
+}
+@keyframes move-up {
+  100% {
+    bottom: 69.75px;
+  }
+}
+@keyframes move-down {
+  100% {
+    top: 69.75px;
+  }
 }
