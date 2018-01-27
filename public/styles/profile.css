@@ -71,6 +71,22 @@
   height: 600px;
 }
 
+.web-dev-img {
+  position: relative;
+  /* The image used */
+  background-image: url("/images/web_dev_img.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .intro {
   /*width: 640px; /*can be in percentage also.*/
   height: auto;
@@ -80,6 +96,10 @@
   text-align: center;
   vertical-align: middle;
   /*line-height: 90px;*/
+}
+
+.intro img {
+  text-align: center;
 }
 
 .intro h1 {
