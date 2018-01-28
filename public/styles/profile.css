@@ -64,13 +64,6 @@
    /*float: left;*/
  }
 
-.container-initial {
-  background-color: black;
-  /*width: 100%;
-  margin: 0 auto;*/
-  height: 600px;
-}
-
 .web-dev-img {
   position: relative;
   /* The image used */
@@ -98,8 +91,56 @@
   /*line-height: 90px;*/
 }
 
-.intro img {
-  text-align: center;
+@media screen and (min-device-width: 992px) {
+  .intro img {
+    text-align: center;
+  }
+
+  .container-initial {
+    background-color: black;
+    /*width: 100%;
+    margin: 0 auto;*/
+    height: 600px;
+  }
+
+}
+
+/* @media screen and (max-device-width: 992px) {
+  .intro img {
+    text-align: center;
+    width: 600px;
+  }
+
+} */
+
+@media screen and (min-device-width: 615px) and (max-device-width: 992px) {
+  .intro img {
+    text-align: center;
+    width: 600px;
+  }
+
+  .container-initial {
+    background-color: black;
+    /*width: 100%;
+    margin: 0 auto;*/
+    height: 400px;
+  }
+
+}
+
+@media screen and (max-device-width: 615px) {
+  .intro img {
+    text-align: center;
+    width: 300px;
+  }
+
+  .container-initial {
+    background-color: black;
+    /*width: 100%;
+    margin: 0 auto;*/
+    height: 200px;
+  }
+
 }
 
 .intro h1 {
@@ -745,7 +786,8 @@ body {
   /* text-transform: uppercase; */
   user-select: none;
   width: 200px;
-  margin-left: 42%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover {
   background: #ec3257;
@@ -757,6 +799,7 @@ body {
 .fancy-button {
   margin: auto;
   position: relative;
+  text-align: center;
 }
 
 .frills, .frills:after, .frills:before {
