@@ -191,7 +191,7 @@ nav {
 #contact-intro {
   height: auto;
   margin: 0 auto;
-  padding: 15% 0 0 0;
+  /* padding: 15% 0 0 0; */
   position: relative;
   text-align: center;
   vertical-align: middle;
